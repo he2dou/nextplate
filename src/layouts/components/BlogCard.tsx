@@ -10,7 +10,7 @@ const BlogCard = ({ data }: { data: Post }) => {
   const { summary_length, blog_folder } = config.settings;
   const { title, image, author, categories, date } = data.frontmatter;
   return (
-    <div className="bg-body dark:bg-darkmode-body">
+    <div className="rounded bg-theme-light p-8 dark:bg-darkmode-theme-light">
       {image && (
         <ImageFallback
           className="mb-6 w-full rounded"
@@ -42,7 +42,9 @@ const BlogCard = ({ data }: { data: Post }) => {
         {date && <li className="inline-block">{dateFormat(date)}</li>}
       </ul>
       <p className="mb-6">
-        {plainify(data.content!.slice(0, Number(summary_length)))}
+        <Link href={`/${blog_folder}/${data.slug}`}>
+          {plainify(data.content!.slice(0, Number(summary_length)))}
+        </Link>
       </p>
       <Link
         className="btn btn-outline-primary btn-sm"

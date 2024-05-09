@@ -1,16 +1,16 @@
 ---
-title: clickhouse 列式数据库
+title: clickhouse 列式数据库实战教程
 date: 2023-04-04T05:00:00Z
 tags:
   - clickhouse
-author: harry
+author: harry tao
 categories:
   - Technology
-image: /images/image-placeholder.png
+  - Data
 ---
 
 
-ClickHouse 是用于实时应用程序和分析的速度最快、资源效率最高的开源数据库。
+> ClickHouse 是用于实时应用程序和分析的速度最快、资源效率最高的开源数据库。
 
 
 ## **第一节 环境安装**

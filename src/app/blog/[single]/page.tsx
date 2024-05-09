@@ -54,12 +54,12 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
         description={description}
         image={image}
       />
-      <section className="section pt-8">
+      <section className="section pt-10">
         <div className="container">
           <div className="row justify-center">
-            <article className="lg:col-8">
+            <article className="lg:col-7">
               {image && (
-                <div className="mb-8">
+                <div className="mb-7">
                   <ImageFallback
                     src={image}
                     height={500}
@@ -71,7 +71,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
               )}
               <h1
                 dangerouslySetInnerHTML={markdownify(title)}
-                className="h2 mb-4"
+                className="h1 mb-4"
               />
               <ul className="mb-4">
                 <li className="mr-4 inline-block">
@@ -118,7 +118,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
                     ))}
                   </ul>
                 </div>
-                <div className="flex items-center lg:col-4">
+                <div className="flex items-center lg:col-5">
                   <h5 className="mr-3">Share :</h5>
                   <Share
                     className="social-icons"
