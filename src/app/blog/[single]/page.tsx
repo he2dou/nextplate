@@ -54,12 +54,12 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
         description={description}
         image={image}
       />
-      <section className="section pt-7">
+      <section className="section pt-8">
         <div className="container">
           <div className="row justify-center">
-            <article className="lg:col-10">
+            <article className="lg:col-8">
               {image && (
-                <div className="mb-10">
+                <div className="mb-8">
                   <ImageFallback
                     src={image}
                     height={500}
