@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Nextplate",
-    "base_url": "https://nextplate.netlify.app",
+    "title": "Indieb",
+    "base_url": "https://indieb.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -9,16 +9,16 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo_text": "Indieb"
   },
 
   "settings": {
     "search": true,
-    "sticky_header": true,
+    "sticky_header": false,
     "theme_switcher": true,
     "default_theme": "system",
-    "pagination": 6,
-    "summary_length": 150,
+    "pagination": 10,
+    "summary_length": 100,
     "blog_folder": "blog"
   },
 

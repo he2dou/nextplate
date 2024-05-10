@@ -6,7 +6,6 @@ tags:
 author: harry tao
 categories:
   - Technology
-  - Data
 ---
 
 
