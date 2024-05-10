@@ -17,14 +17,14 @@
       "url": "/elements"
     },
     {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
       "name": "More",
       "url": "",
       "hasChildren": true,
       "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
         {
           "name": "Authors",
           "url": "/authors"
