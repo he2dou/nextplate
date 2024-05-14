@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14">
+      {/* <section className="section pt-14">
         <div className="container">
           <div className="row justify-center">
             <div className="lg:col-7 md:col-9 mb-8 text-center">
@@ -63,12 +63,12 @@ const Home = () => {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {features.map((feature, index: number) => (
         <section
           key={index}
-          className={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
+          className={`section-sm ${index % 2 === 0 && "bg-background"}`}
         >
           <div className="container">
             <div className="row items-center justify-between">
